@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome Deviska Adi Nugroho</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/style.css">
 </head>
 <style>
 
@@ -79,27 +79,7 @@
             </div>
         </div>
     </div>
-
-<!--      <div class="col mt-8">
-            <div class="flex">
-                             <?php 
-        $tanggal = mktime(date('m'), date("d"), date('Y'));
-        date_default_timezone_set("Asia/Jakarta");
-        $jam = date ("H:i:s");
-        $a = date ("H");
-        if (($a>=6) && ($a<=11)) {
-            echo ' <img src="sela.png" width="400px"> ';
-        }else if(($a>=11) && ($a<=15)){
-            echo ' <img src="siang.png" width="400px"> ';
-        }elseif(($a>15) && ($a<=18)){
-            echo ' <img src="petang.png" width="400px"> ';
-        }else{
-            echo "Time To Sleep";
-        }
-        ?>        
-                </div>
-        </div> -->
-    <script src="script.js"></script>
+    <script src="lib/script.js"></script>
     </div>
 </body>
 
